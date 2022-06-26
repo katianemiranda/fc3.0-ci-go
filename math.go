@@ -10,6 +10,6 @@ func main() {
 }
 
 //Soma - realiza a soma de dois números
-func Soma(a int, b int) int {
+func soma(a int, b int) int {
 	return a + b
 }
