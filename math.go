@@ -5,7 +5,7 @@ import "fmt"
 //import "fmt"
 
 func main() {
-	fmt.Println(Soma(10, 10))
+	fmt.Println(soma(10, 10))
 
 }
 
