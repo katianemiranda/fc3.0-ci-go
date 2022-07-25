@@ -2,7 +2,7 @@ FROM golang:latest
 
 WORKDIR /app
 
-COPY . .
+COPY /app .
 
 RUN go build -o math
 
