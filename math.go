@@ -5,11 +5,12 @@ import "fmt"
 //import "fmt"
 
 func main() {
-	fmt.Println(soma(20, 10))
+	fmt.Println(Soma(20, 10))
+	fmt.Println(Soma(40, 10))
 
 }
 
 //Soma - realiza a soma de dois números
-func soma(a int, b int) int {
+func Soma(a int, b int) int {
 	return a + b
 }
